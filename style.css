@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: #f5b72c;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+   background-color: #f9d48c;
+    
+}
+
+.hero,
+.mid-section,
+.contacts,
+footer,
+section{
+    margin: 20px 10%;
+    padding: 0 40px;
+}
+
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 5%;
+}
+
+.logo{
+color: #181917;
+font-size: 24px;
+font-weight: 900;
+}
+
+a{
+   
+    text-decoration: none;
+}
+
+ul a{
+    color:#2448fa;
+    padding: 30px;
+    font-size: 20px;
+}
+ul li{
+    display: inline-block;     
+}
+
+img{
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 15%;
+margin-left: 10%;
+}
+ .text{
+     width: 400px;
+ }
+
+ button{
+
+     background-color: #fafbfc;
+     border-radius: 5px;
+width: 100px;
+ }
+
+ button a{
+     font-size: 16px;
+     font-weight: 500;
+     color: #00994a;
+ }
+ 
+ h2{
+     text-align: center;
+     padding-top: 5rem;
+ }
+
+ .hero img{
+     padding: 30px;
+     margin-left: 20px;
+ }
+ 
+ .hero{
+
+     background-color: #fffffc;
+     height: 500px;
+ }
+
+ .mid-section{
+     height: 350px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #eaedeb;
+     color: #1f1b15;
+ }
+
+ blockquote{
+     font-style: italic;
+     font-size: 18px;
+     font-weight: 500;
+     
+ }
+
+ .contacts{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    background-color:#1f1b15;
+    height: 300px;
+ }
+
+ .call{
+     width: 700px;
+     height: 120px;
+     padding: 20px;
+     background-color:#0072bd;
+     color: #eaedeb;
+ }
+
+ footer{
+     text-align: center;
+     font-size: 12px;
+     background-color:#f9d48c;
+     height: 50px;
+     padding: 20px;
+     color: #1f1b15
+ }
+
