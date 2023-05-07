@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(1, 1, 34);
+    
 }
 
 header{
@@ -13,6 +14,7 @@ header{
     align-items: center;
     margin: 10px;
     padding: 10px 10px ;
+    flex-shrink: 0;
 }
 
 .header{
@@ -47,14 +49,17 @@ li{
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 180px;
+    margin-top: 80px;
+    margin: 150px;
+    border-radius:11px;
+    box-shadow:0 0 30px #835c52;
 }
 
-img{
+.content-img{
     height: auto;
-    width: 400px;
+    width: 280px;
     margin: 80px;
+
 }
 
 h1{
@@ -67,7 +72,7 @@ h1{
     margin: 10px;
 }
  
-.content-para{
+.para{
     background-color: #835c52;
     margin: 15px;
     padding: 10px 15px;
@@ -82,6 +87,7 @@ h1{
     flex-direction: column;
     margin: 15px;
     padding: 10px  ;
+    
 }
 
 .btn{
@@ -98,5 +104,90 @@ h1{
     box-shadow: 0 0 10px #252f3f;
     margin: 18px;
     margin-top: auto;
+
 }
+
+
+
+
+.border-line{
+    border: 5px solid rgb(187, 6, 6);
+    margin-bottom: 10px ;
+}
+
+article {
+    background-color: #d7c6c6;
+    font-family: reckless,sans-serif;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 0;
+    margin: 80px;
+
+    padding: 20px 20px;
+}
+
+.right-art{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    color: #4b4b4b;
+    padding: 10px 10px ;
+    border-radius: 15px;
+    
+}
+
+.image-container{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    margin:25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.image-text{
+    color: #4b4b4b;
+    background-color: #ffffff;
+    padding: 15px 15px;
+    margin: 12px;
+}
+
+.right-headings, .head-para, i{
+    color: #4b4b4b;
+    background-color: #ffffff;
+}
+
+.right-headings{
+    padding: 15px;
+    
+;
+}
+
+.head-para{
+    font-size: 15px; 
+    text-decoration: underline;
+}
+
+.articles-link{
+    font-family: ibm-plex-sans, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 14px;
+    text-decoration: none;
+    background-color: #4b4b4b;
+    color: #d7c6c6;
+    border: 2px solid #4b4b4b;
+    padding: 10px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.articles-link:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
 
