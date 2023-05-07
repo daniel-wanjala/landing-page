@@ -209,6 +209,7 @@ article {
     font-weight: 500;
     background-color: #f3f4f6;
     padding: 15px;
+    
 
 }
 
@@ -225,6 +226,8 @@ article {
     background-color: #f3f4f6;
     padding: 12px 15px;
     
+
+    
 }
 
 .right-sect{
@@ -232,7 +235,8 @@ article {
     justify-content: center;
     align-items: center;
     background-color: #f3f4f6;
-    margin-left: auto;
+    gap: 20px;
+    margin-right: 40em;
    
 }
 
