@@ -107,9 +107,6 @@ h1{
 
 }
 
-
-
-
 .border-line{
     border: 5px solid rgb(187, 6, 6);
     margin-bottom: 10px ;
@@ -163,8 +160,6 @@ article {
 
 .right-headings{
     padding: 15px;
-    
-;
 }
 
 .head-para{
@@ -172,7 +167,8 @@ article {
     text-decoration: underline;
 }
 
-.articles-link{
+.all-articles{
+    margin-left:300px;
     font-family: ibm-plex-sans, sans-serif;
     font-weight: 600;
     font-size: 17px;
@@ -183,11 +179,69 @@ article {
     border: 2px solid #4b4b4b;
     padding: 10px;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
 }
 
-.articles-link:hover{
+.all-articles:hover{
     box-shadow: inset 100px 0 0 0 #54b3d6;
     color: white;
 }
 
+.contacts{
+    padding: 30px 30px;
+    margin: 30px;
+    color: #3c3d3d;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 90px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.title-text{
+    font-family: ibm-plex-sans,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    background-color: #f3f4f6;
+    padding: 15px;
+
+}
+
+.sect-border{
+    border: 2px solid rgb(57, 2, 2);
+    height: 300px;
+}
+
+.left-title{
+    font-weight: 700;
+    font-family: ibm-plex-sans, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #f3f4f6;
+    padding: 12px 15px;
+    
+}
+
+.right-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    margin-left: auto;
+   
+}
+
+footer{
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #f3f4f6;
+    text-align: center;
+    padding: 20px 25px;
+    
+}
 
